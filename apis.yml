@@ -1,8 +1,26 @@
 aid: shapr3d
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shapr3d.png
 name: Shapr3D
-description: 'Shapr3D is a company surfaced as a portfolio company of creandum, point-nine, speedinvest
-  and added to the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Shapr3D is a 3D CAD (computer-aided design) application built on the Siemens
+  Parasolid geometric modeling engine, running natively on iPad, Apple Vision Pro, macOS,
+  and Windows. It offers parametric solid modeling, 2D technical drawings, augmented-reality
+  visualization, and industry-standard CAD file import/export for engineers, product
+  designers, and hobbyists. Shapr3D is a portfolio company of Creandum, Point Nine, and
+  Speedinvest. As of this enrichment pass the company publishes no public API, SDK, or
+  developer program; its discoverable machine surface is limited to the corporate/product
+  site, help center, and a Trust Center documenting SOC 2 Type II, ISO/IEC 27001:2022,
+  and GDPR compliance plus a responsible-disclosure program.'
 url: https://raw.githubusercontent.com/api-evangelist/shapr3d/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Saas
+- CAD
+- 3D Modeling
+- Design
+- Engineering
+- Product Design
+- Parametric Modeling
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +51,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.shapr3d.com/
+- type: Pricing
+  url: https://www.shapr3d.com/pricing
+- type: Support
+  url: https://support.shapr3d.com/hc/en-us
+- type: Blog
+  url: https://www.shapr3d.com/blog
+- type: SignUp
+  url: https://app.shapr3d.com/signup
+- type: TermsOfService
+  url: https://www.shapr3d.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.shapr3d.com/privacy-policy
+- type: TrustCenter
+  url: security/shapr3d-trust-center.yml
+- type: Compliance
+  url: https://trust.shapr3d.com/
+- type: Security
+  url: https://support.shapr3d.com/hc/en-us/sections/16056525800348-Security-and-compliance
+- type: DomainSecurity
+  url: security/shapr3d-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/shapr3d-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
